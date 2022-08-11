@@ -1,0 +1,8 @@
+<!-- create xml -->
+
+<launch>
+
+    <node pkg="create_edg" type="create_edg" name="create_edg" output="screen">
+    </node>
+
+</launch>
