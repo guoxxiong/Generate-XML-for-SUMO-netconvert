@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<edges><edge id="10000" from="1" to="2" numLanes="1" width="3.16" spreadType="right" shape="26.830000,103.760002 26.830000,73.250000"/><edge id="10001" from="3" to="4" numLanes="1" width="3.16" spreadType="right" shape="26.830000,73.250000 25.969999,43.889999"/><edge id="10002" from="5" to="6" numLanes="1" width="3.16" spreadType="right" shape="-11.090000,74.110001 26.830000,73.250000"/><edge id="10003" from="7" to="8" numLanes="1" width="3.16" spreadType="right" shape="26.830000,73.250000 66.750000,72.400002"/></edges>

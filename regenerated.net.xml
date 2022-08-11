@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Apr 24 17:47:13 2019 by Eclipse SUMO netconvert Version UNKNOWN
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="generated.nod.xml"/>
+        <edge-files value="generated.edg.xml"/>
+    </input>
+
+    <output>
+        <output-file value="regenerated.net.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<net version="1.1" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="-1.90,0.00" convBoundary="0.00,0.00,169.28,16.40" origBoundary="1.90,0.00,171.18,16.40" projParameter="!"/>
+
+    <edge id="10000" from="1" to="15" priority="-1" shape="0.00,0.63 7.51,3.43 15.08,6.03 24.08,7.47 32.12,7.23 56.59,2.65 76.88,0.00 88.02,0.57 97.99,1.70 113.93,4.40 129.86,7.81 141.80,10.56 155.73,13.70 163.69,15.35">
+        <lane id="10000_0" index="0" speed="13.89" length="171.79" shape="2.79,-6.87 10.21,-4.10 17.03,-1.76 24.60,-0.55 31.26,-0.75 55.34,-5.25 76.56,-8.03 88.68,-7.41 99.11,-6.22 115.44,-3.46 131.60,0.00 143.58,2.76 157.42,5.88 170.88,8.67"/>
+        <lane id="10000_1" index="1" speed="13.89" length="171.79" shape="1.68,-3.87 9.13,-1.09 16.25,1.36 24.39,2.66 31.60,2.44 55.84,-2.09 76.69,-4.82 88.41,-4.22 98.66,-3.05 114.83,-0.32 130.90,3.12 142.87,5.88 156.74,9.01 170.23,11.80"/>
+        <lane id="10000_2" index="2" speed="13.89" length="171.79" shape="0.56,-0.87 8.05,1.92 15.47,4.47 24.18,5.87 31.95,5.63 56.34,1.07 76.82,-1.61 88.15,-1.03 98.21,0.12 114.23,2.83 130.21,6.25 142.16,9.00 156.07,12.14 169.58,14.94"/>
+    </edge>
+
+    <junction id="1" type="dead_end" x="0.00" y="0.63" incLanes="" intLanes="" shape="0.00,0.63 3.35,-8.37"/>
+    <junction id="15" type="dead_end" x="169.28" y="16.40" incLanes="10000_0 10000_1 10000_2" intLanes="" shape="171.21,7.10 169.26,16.50"/>
+
+</net>
